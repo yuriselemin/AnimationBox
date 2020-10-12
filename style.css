@@ -1,0 +1,71 @@
+body {
+    padding: 0px;
+    background-color: #657173;
+}
+
+
+
+
+
+.redBox {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    background-color: #F2F2F2;
+    border-color: #F2F2F2;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0px;
+    
+}
+
+.blue {
+    width: 80px;
+    height: 80px;
+    background-color:#657173;
+    border-radius: 0px;
+    position: relative;
+    
+
+}
+
+.header {
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2F2F2;
+}
+
+.cont_btn {
+    width: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+a.knopka {
+    color: #fff; /* цвет текста */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: #7B8B8C; /* фон кнопки */
+    padding-top: 13px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    outline: none; /* убирать контур в Mozilla */
+  } 
+  a.knopka:hover { background: #363F40; } /* при наведении курсора мышки */
+  /* a.knopka:active { background: rgb(152,15,0); } при нажатии */
